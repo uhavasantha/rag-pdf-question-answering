@@ -5,7 +5,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 from transformers import pipeline
 from langchain_community.llms import HuggingFacePipeline
-from langchain.chains import RetrievalQA
+from langchain.chains.retrieval_qa.base import RetrievalQA
 
 
 def process_docs(file_path):

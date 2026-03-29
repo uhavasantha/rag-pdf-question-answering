@@ -1,11 +1,11 @@
-streamlit==1.32.0
-langchain==0.1.16
-langchain-community==0.0.32
-langchain-text-splitters==0.0.1
-
+streamlit
+langchain==0.1.17
+langchain-community
+langchain-text-splitters
 faiss-cpu
 sentence-transformers
 pypdf
 transformers
 torch
+torchvision
 huggingface-hub
